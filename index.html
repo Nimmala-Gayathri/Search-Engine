@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Engine</title>
+</head>
+<body>
+    <div class="search">
+        <h2>Search Engine</h2>
+        <input type="text" name="" id="searchInput" placeholder="Search for an items">
+    </div>
+    <div class="results">
+        <!-- <div class="result">
+            <img src="https://picsum.photos/150" alt="">
+            <h3>Product name</h3>
+            <p>Price :7000</p>
+            <button>Purchese</button>
+        </div>
+        <div class="result">
+            <img src="https://picsum.photos/150" alt="">
+            <h3>Product name</h3>
+            <p>Price :7000</p>
+            <button>Purchese</button>
+        </div>
+        <div class="result">
+            <img src="https://picsum.photos/150" alt="">
+            <h3>Product name</h3>
+            <p>Price :7000</p>
+            <button>Purchese</button>
+        </div>
+        <div class="result">
+            <img src="https://picsum.photos/150" alt="">
+            <h3>Product name</h3>
+            <p>Price :7000</p>
+            <button>Purchese</button>
+        </div> -->
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    *{
+        padding: 0;
+        margin: 0;
+        font-family: poppin;
+    }
+    body{
+        background-color: #C5CAE9;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .search{
+        width: 60%;
+    }
+    h2{
+        font-size: 3rem;
+    }
+    input{
+        border: none;
+        border-bottom: 0.6px solid #000e8b;
+        padding: 1rem;
+        font-size: 1.3rem;
+        width: 100%;
+        outline: none;
+        margin-top: 5vh;
+        color: #1A237E;
+    }
+    .results{
+        width: 60vw;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+    .results div{
+        background-color: white;
+        border: 0.2px solid #000e8b;
+        border-radius: 16px;
+        padding: 1rem;
+        margin: 1rem;
+    }
+    .results img{
+        width: 100px;
+        height: 100px;
+    }
+    .results button{
+        padding: 0.8rem;
+        background-color: #036daa;
+        border-radius: 8px;
+        border: none;
+        color: white;
+        font-weight: bolder;
+        margin: 0.5rem 0;
+    }
+</style>
